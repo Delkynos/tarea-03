@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.header {
+  height: 20%;
+  background-color: #cad2c5;
+}
+.middler {
+  display: flex;
+  flex-direction: row;
+  height: 70%;
+  gap: 10px;
+}
+.footer {
+  height: 10%;
+  background-color: #2f3e46;
+}
+.box {
+  background-color: #84a98c;
+  width: 70%;
+}
+.box2 {
+  background-color: #52796f;
+  width: 30%;
+}
